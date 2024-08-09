@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    padding: 0;
+    width: 350px;
+    height: 450px;
+  
+}
+.menu{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border-top: 1px solid black;
+    margin: 10px;
+    width: 1150px;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    padding: 12px;
+    list-style: none;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color:black;
+}
+.menu ul li a:hover{
+    cursor: pointer;
+    background:red;
+    color:white;
+}
+.parent{
+    position: relative;
+    margin: 30px;
+    width: 1150px;
+   
+}
+.box1{
+    background-color: #ee762c;
+    height: 100px;
+}
+#connecxion{
+    font-size: 30px;
+    text-align: right;
+    margin: 20px;
+    padding: 30px;
+    margin-right: 330px;
+}
+.box1 p a{
+    color: white;
+}
+.login-form{
+    padding: 20px;
+    margin: 25px;
+    top: 10px;
+    background-color: white;
+    left: 50px;
+    bottom: 0;
+    border:1px solid #034f89;
+    width: 400px;
+    height:500px;
+    position:absolute;
+    z-index: 100;
+}
+.login-form .con{
+   text-align: center;
+}
+.login-form  input{
+    
+    border-radius: 5px;
+}
+.login-form button{
+    font-size: 18px;
+    background-color: #3290e0;
+    color: white;
+    margin: 10px 0;
+    padding: 5px 10px;
+    width: 30%;
+    border-radius: 5px;
+    margin-left: 260px;
+    cursor: pointer;
+}
+.box3{
+    background-color: #034f89;
+    width: 1150px;
+    height: 500px;
+}
+.image{
+  position: absolute;
+  border: 1px solid #3390e0;
+  right: 100px;
+  top: 100px;
+  margin-top: 80px;
+  z-index: 200;
+  
+ 
+}
+form{
+    margin: 10px;
+    width: 400px;
+}
+.input{
+    width: 100%;
+}
+p a{
+    text-decoration: none;
+}
